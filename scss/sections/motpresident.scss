@@ -1,0 +1,63 @@
+@use '../colors' as *;
+
+.mot-president {
+    .details-president{
+        background: linear-gradient(62deg, rgba(2,0,36,1) 0%, rgba(0,45,88,1) 34%, rgba(26,70,162,1) 78%);
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        @media (max-width: 767px) {
+            flex-direction: column;
+            width: 80%;
+            align-items: center;
+        }
+        .info-president {
+            h1 {
+                color: white;
+                font-size: 2rem;
+                font-weight: 900;
+                @media (max-width: 768px) {
+                    font-size: 16px;
+                }
+            }
+            p{
+                color: $gray-400;
+                font-size: 12px;
+
+            }
+        
+            
+        }
+    }
+    
+    .description {
+        width: 80%;
+        .card {
+            border-radius: 20px;
+            box-shadow: 5px 5px 15px $primary;
+            transition: all 0.3s ease-in;
+            -webkit-transition: all 0.3s ease-in;
+            -moz-transition: all 0.3s ease-in;
+
+            .card-text {
+                font-weight: 400;
+                i {
+                    color: $primary;
+                }
+            }
+
+            &:hover {
+                background: linear-gradient(62deg, rgba(2,0,36,1) 0%, rgba(0,45,88,1) 34%, rgba(26,70,162,1) 78%);
+                border-radius: 10px;
+                box-shadow: 5px 5px 10px #9e9e9e;
+                .card-text {
+                    color: white;
+                    i {
+                        color: white;
+                    }
+                }
+            }
+            
+        }
+    }
+}

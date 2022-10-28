@@ -1,0 +1,38 @@
+@use '../colors' as *;
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital@1&display=swap');
+.infos {
+    background: linear-gradient(62deg, rgba(2,0,36,1) 0%, rgba(0,45,88,1) 34%, rgba(26,70,162,1) 78%);
+    .item {
+        color: white;
+        margin-bottom: 20px;
+        i,p{
+            font-size: 40px;
+            font-weight: bold;
+        }
+        p{
+            display: inline-block;
+        }
+        .item-title {
+            font-size: 16px;
+            text-transform: capitalize;
+            margin-top: 5px;
+            margin-bottom: 0;
+            display: block;
+            width: 100%;
+            position: relative;
+            font-family: 'Prompt', sans-serif;
+            
+            &::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                top: -3px;
+                width: 25%;
+                height: 2px;
+                background: white;
+            }
+        }
+    }
+}

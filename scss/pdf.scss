@@ -1,0 +1,22 @@
+@use 'colors' as *;
+.pdf {
+    a{
+        color: black;
+        padding-left: 5px;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    i {
+        color: $secondary;
+    }
+    &:hover {
+        a {
+            color: white;
+            font-weight: bold;
+        }
+        i {
+            color: white;
+        }
+    }
+
+}

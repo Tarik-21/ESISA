@@ -1,0 +1,11 @@
+Options All -Indexes
+
+RewriteEngine On
+
+RewriteBase /ESISA
+
+RewriteRule ^([-a-zA-Z0-9]+)$ index.php?page=$1
+
+php_value upload_max_filesize 40M
+php_value post_max_size 65M
+php_value max.execution_time 300

@@ -1,0 +1,117 @@
+@use '../colors' as *;
+
+
+
+.inscription-form,.evenement-form {
+    
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20.0px );
+    -webkit-backdrop-filter: blur( 20.0px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 20px;
+    width: 80%;
+
+    .card-body {
+        .card-text {
+                margin-bottom: 15px;
+                .head {
+                    h1{
+                        font-weight: bold;
+                    color: $secondary;
+                    }
+                    
+                }
+                .title {
+                    font-weight: 500;
+                    color: $secondary;
+                    margin-bottom: 5px;
+                    
+                }
+                input,select,textarea {
+                    border-radius: 10px;
+                    border: 2px solid $secondary;
+                }
+
+                button {
+                    background: linear-gradient(62deg, rgba(2,0,36,1) 0%, rgba(0,45,88,1) 34%, rgba(26,70,162,1) 78%);
+                    width: 60%;
+                    border-radius: 20px;
+                    font-weight: bold;
+                }
+            
+            
+        }
+    }
+
+}
+.evenement-form {
+    .inputs {
+        width: 80%;
+        margin: 5px auto;
+        display: flex;
+        justify-content: space-between;
+        @media (max-width : 700px) {
+            flex-direction: column;
+            
+        }
+        .side1 {
+            width: 48%;
+            @media (max-width : 700px) {
+                width: 100%;
+                
+            }
+        }
+        .side2 {
+            width: 48%;
+            @media (max-width : 700px) {
+                width: 100%;
+                
+            }
+            align-items:stretch;
+            .form-floating{
+                height: 100%;
+                textarea {
+                    height: 100%;
+                }
+            }
+            
+        }
+    }
+}
+
+.inscription-form-sm {
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20.0px );
+    -webkit-backdrop-filter: blur( 20.0px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 20px;
+    width: 30%;
+    @media (max-width: 765px) {
+        width: 80%;
+    }
+    .card-body {
+        .card-text {
+            .row {
+                margin-bottom: 15px;
+                .title {
+                    font-weight: 500;
+                    color: $secondary;
+                    margin-bottom: 5px;
+                    
+                }
+                input,select,textarea {
+                    border-radius: 10px;
+                    border: 2px solid $secondary;
+                }
+
+                button {
+                    background: linear-gradient(62deg, rgba(2,0,36,1) 0%, rgba(0,45,88,1) 34%, rgba(26,70,162,1) 78%);
+                    width: 60%;
+                    border-radius: 20px;
+                    font-weight: bold;
+                }
+            
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital@1&display=swap");
+.infos {
+  background: linear-gradient(62deg, #020024 0%, #002d58 34%, #1a46a2 78%);
+}
+.infos .item {
+  color: white;
+  margin-bottom: 20px;
+}
+.infos .item i, .infos .item p {
+  font-size: 40px;
+  font-weight: bold;
+}
+.infos .item p {
+  display: inline-block;
+}
+.infos .item .item-title {
+  font-size: 16px;
+  text-transform: capitalize;
+  margin-top: 5px;
+  margin-bottom: 0;
+  display: block;
+  width: 100%;
+  position: relative;
+  font-family: "Prompt", sans-serif;
+}
+.infos .item .item-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: -3px;
+  width: 25%;
+  height: 2px;
+  background: white;
+}
+
+/*# sourceMappingURL=infos.css.map */

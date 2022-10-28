@@ -1,0 +1,46 @@
+@use '../colors' as *;
+
+.content {
+    .container {
+        width: 70%;
+    }
+    p{
+        color: #555555;
+    }
+    h2 {
+        color: $secondary;
+        font-weight: 800;
+        letter-spacing: 0.225em;
+        margin: 0 0 1em 0;
+        text-transform: uppercase;
+        @media (max-width: 767px) {
+            font-size: 18px;
+        }
+
+    }
+    img.small-border {
+        width: 48%;
+        margin: 3px;
+        padding: 0;
+
+    }
+    .liste-ecole {
+        list-style: none;
+        li {
+            
+            list-style: none;
+            i {
+                margin-left: 5px;
+                color: $secondary;
+            }
+            a {
+                color: $secondary;
+                text-decoration: none;
+            }
+            &:hover {
+                    font-weight: bold;
+
+            }
+        }
+    }
+}

@@ -1,0 +1,107 @@
+@use '../colors' as *;
+
+.calendrier {
+    .container {
+        width: 80%;
+        .row {
+            .event-item{
+                min-height: 205px;
+                width: 100%;
+                padding: 0;
+                overflow: hidden;
+                box-shadow: 0 0 10px #cccccc7a;
+                border: none;
+                margin-bottom: 25px;
+                position: relative;
+                top: 0;
+                transition: ease-out .3s;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                @media (max-width: 540px){
+                    flex-direction: column ;
+                }
+                &:hover {
+                    transform: translate(0,-10px);
+                }
+                /*&::before {
+                    content: "";
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    width: 8%;
+                    height: 100%;
+                    background: linear-gradient(to top,rgb(38, 53, 146), rgb(51, 58, 101));
+                    z-index: -1;
+                }*/
+                .event-date {
+                    left: 20px;
+                    top: 30%;
+                    padding-left: 7px;
+                    width: 100%;
+                    height: 10%;
+                    color: white;
+                    display: flex;
+                    justify-content: start;
+                    background: linear-gradient(to top,rgb(38, 53, 146), rgb(51, 58, 101));
+                    @media (max-width: 540px){
+                        width: 100%;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        i{
+                            display: none;
+                        }
+                    }
+                    
+                    h4{
+                        font-size: 24px;
+                        font-weight: bold;
+                    }
+                }
+
+                .event-details {
+                    position: relative;
+                    padding-left: 30px;
+                    display: flex;
+                    justify-content: space-between;
+                    @media (max-width: 984px) {
+                        .cv-img {
+                            display: none;
+                        }
+                        
+                    }
+
+                    .event-info {
+                        padding: 40px 10px 40px 0;
+                        h3 {
+                            color: $primary;
+                            font-weight: bold;
+
+                        }
+                        .event-time {
+                            display: flex;
+                            i {
+                                color: $primary;
+                                font-weight: bold;
+                            }
+                        }
+                        p {
+                            font-weight: 300;
+                            line-height: 1.6;
+                            margin-bottom: 20px;
+                            color: #5d5c5c;
+                            font-size: 15px;
+                            font-family: 'Poppins', sans-serif;
+                        }
+                    }
+                    .cv-img {
+                        max-width: 250px;
+                        min-width: 250px;
+                        cursor: pointer;
+                    }
+
+                }
+            }
+        }
+    }
+}

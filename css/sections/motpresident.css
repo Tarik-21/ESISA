@@ -1,0 +1,56 @@
+.mot-president .details-president {
+  background: linear-gradient(62deg, #020024 0%, #002d58 34%, #1a46a2 78%);
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 767px) {
+  .mot-president .details-president {
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+  }
+}
+.mot-president .details-president .info-president h1 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 900;
+}
+@media (max-width: 768px) {
+  .mot-president .details-president .info-president h1 {
+    font-size: 16px;
+  }
+}
+.mot-president .details-president .info-president p {
+  color: #ced4da;
+  font-size: 12px;
+}
+.mot-president .description {
+  width: 80%;
+}
+.mot-president .description .card {
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px #002d58;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+}
+.mot-president .description .card .card-text {
+  font-weight: 400;
+}
+.mot-president .description .card .card-text i {
+  color: #002d58;
+}
+.mot-president .description .card:hover {
+  background: linear-gradient(62deg, #020024 0%, #002d58 34%, #1a46a2 78%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #9e9e9e;
+}
+.mot-president .description .card:hover .card-text {
+  color: white;
+}
+.mot-president .description .card:hover .card-text i {
+  color: white;
+}
+
+/*# sourceMappingURL=motpresident.css.map */

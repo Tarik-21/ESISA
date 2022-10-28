@@ -1,0 +1,9 @@
+@use 'colors' as *;
+
+::-webkit-scrollbar {
+    width: 12px;
+    &-thumb {
+        background : $secondary;
+        border-radius: 6px;
+    }
+}

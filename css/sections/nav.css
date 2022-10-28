@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+.menu {
+  background: #020024;
+  background: linear-gradient(62deg, #020024 0%, #002d58 34%, #1a46a2 78%);
+}
+.menu li {
+  padding: 0 0.7rem;
+}
+.menu li .nav-link {
+  color: white !important;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.btn-rounded {
+  background-color: white;
+  color: #002d58;
+  position: relative;
+  padding: 0.5rem 2.375rem;
+  font-weight: 700;
+  margin: 0;
+  border: 0.1rem solid rgba(255, 255, 255, 0.6);
+}
+.btn-rounded:hover {
+  background: linear-gradient(62deg, #020024 0%, #002d58 34%, #1a46a2 78%);
+  color: white !important;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+  min-width: 210px;
+}
+.dropdown:hover > .dropdown-menu .dropdown-item {
+  padding: 5px;
+  color: #5d8bc2;
+  font-weight: 400;
+  font-size: 12px;
+  transition: 0.1s;
+}
+.dropdown:hover > .dropdown-menu .dropdown-item:hover {
+  color: #002d58;
+  font-weight: bold;
+}
+
+.dropdown > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+
+.dropdown-menu li {
+  position: relative;
+}
+
+.dropdown-menu .dropdown-submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: -7px;
+}
+
+.dropdown-menu > li:hover > .dropdown-submenu {
+  display: block;
+}
+
+/*# sourceMappingURL=nav.css.map */

@@ -1,0 +1,51 @@
+@use '../colors' as *;
+.videos {
+    .container-fluid {
+        padding: 4rem 0;
+        
+        .row{
+            iframe{
+                width: 560px;
+                margin-bottom: 15px;
+                @media (max-width: 600px){
+                    width: 90%;
+                    height: 300px;
+                }
+            }
+        }
+    }
+    
+}
+
+.album{
+    .container{
+        .row {
+            img{
+                width: 100%;
+                min-height: 250px;
+                max-height: 250px;
+            }
+        }
+    }
+}
+
+.videos-home {
+    .container{
+        .row{
+            video {
+                width: 100%;
+            }
+                h5{
+                    color: #1a45a2;
+                    font-weight: 800;
+                    letter-spacing: 0.225em;
+                    text-transform: uppercase;
+                }
+            
+                
+                
+            
+        }
+    }
+
+}

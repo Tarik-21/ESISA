@@ -1,0 +1,31 @@
+.annonces .carousel-item {
+  padding: 50px;
+}
+.annonces .carousel-item .card {
+  margin-bottom: 15px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px #002d58;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+}
+.annonces .carousel-item .card img {
+  width: 100%;
+  cursor: pointer;
+}
+.annonces .carousel-item .card:hover {
+  filter: brightness(80%);
+  -webkit-filter: brightness(80%);
+  transform: scale(1.1);
+}
+.annonces button {
+  background-color: white;
+  width: 5rem;
+  height: 4rem;
+}
+.annonces button i {
+  font-size: 50px;
+  color: #1a45a2;
+}
+
+/*# sourceMappingURL=annonces.css.map */

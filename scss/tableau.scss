@@ -1,0 +1,36 @@
+@use 'colors' as *;
+.ccna,.admin{
+    
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+    td {
+        border: 1px solid black;
+        padding: 5px;
+    }
+    th {
+        background-color: $secondary;
+        color: white;
+        border: 1px solid black;
+        padding: 5px;
+    }
+    tr:nth-child(even) {background-color: #f2f2f2;}
+    }
+
+.international {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+    td {
+        border: 1px solid black;
+        padding: 5px;
+        font-size: 12px;
+    }
+    th {
+        background-color: $secondary;
+        color: white;
+        border: 1px solid black;
+        padding: 5px;
+        font-size: 12px ;
+    }
+}

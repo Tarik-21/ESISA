@@ -1,0 +1,42 @@
+.content .container {
+  width: 70%;
+}
+.content p {
+  color: #555555;
+}
+.content h2 {
+  color: #1a45a2;
+  font-weight: 800;
+  letter-spacing: 0.225em;
+  margin: 0 0 1em 0;
+  text-transform: uppercase;
+}
+@media (max-width: 767px) {
+  .content h2 {
+    font-size: 18px;
+  }
+}
+.content img.small-border {
+  width: 48%;
+  margin: 3px;
+  padding: 0;
+}
+.content .liste-ecole {
+  list-style: none;
+}
+.content .liste-ecole li {
+  list-style: none;
+}
+.content .liste-ecole li i {
+  margin-left: 5px;
+  color: #1a45a2;
+}
+.content .liste-ecole li a {
+  color: #1a45a2;
+  text-decoration: none;
+}
+.content .liste-ecole li:hover {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=etudier_a_esisa.css.map */

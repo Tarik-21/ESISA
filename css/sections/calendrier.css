@@ -1,0 +1,101 @@
+.calendrier .container {
+  width: 80%;
+}
+.calendrier .container .row .event-item {
+  min-height: 205px;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: 0 0 10px #cccccc7a;
+  border: none;
+  margin-bottom: 25px;
+  position: relative;
+  top: 0;
+  transition: ease-out 0.3s;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  /*&::before {
+      content: "";
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 8%;
+      height: 100%;
+      background: linear-gradient(to top,rgb(38, 53, 146), rgb(51, 58, 101));
+      z-index: -1;
+  }*/
+}
+@media (max-width: 540px) {
+  .calendrier .container .row .event-item {
+    flex-direction: column;
+  }
+}
+.calendrier .container .row .event-item:hover {
+  transform: translate(0, -10px);
+}
+.calendrier .container .row .event-item .event-date {
+  left: 20px;
+  top: 30%;
+  padding-left: 7px;
+  width: 100%;
+  height: 10%;
+  color: white;
+  display: flex;
+  justify-content: start;
+  background: linear-gradient(to top, #263592, #333a65);
+}
+@media (max-width: 540px) {
+  .calendrier .container .row .event-item .event-date {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .calendrier .container .row .event-item .event-date i {
+    display: none;
+  }
+}
+.calendrier .container .row .event-item .event-date h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.calendrier .container .row .event-item .event-details {
+  position: relative;
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 984px) {
+  .calendrier .container .row .event-item .event-details .cv-img {
+    display: none;
+  }
+}
+.calendrier .container .row .event-item .event-details .event-info {
+  padding: 40px 10px 40px 0;
+}
+.calendrier .container .row .event-item .event-details .event-info h3 {
+  color: #002d58;
+  font-weight: bold;
+}
+.calendrier .container .row .event-item .event-details .event-info .event-time {
+  display: flex;
+}
+.calendrier .container .row .event-item .event-details .event-info .event-time i {
+  color: #002d58;
+  font-weight: bold;
+}
+.calendrier .container .row .event-item .event-details .event-info p {
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #5d5c5c;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.calendrier .container .row .event-item .event-details .cv-img {
+  max-width: 250px;
+  min-width: 250px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=calendrier.css.map */

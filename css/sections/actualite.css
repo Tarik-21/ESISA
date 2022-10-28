@@ -1,0 +1,46 @@
+.actualite .container {
+  width: 85%;
+}
+.actualite .act_item {
+  min-height: 500px;
+  display: flex;
+  box-shadow: 0 0 10px #cccccc7a;
+  margin-bottom: 20px;
+}
+.actualite .act_item .act_bar {
+  width: 8%;
+  background: linear-gradient(to top, #263592, #333a65);
+}
+.actualite .act_item .act_content .act_image {
+  height: 220px;
+  overflow: hidden;
+}
+.actualite .act_item .act_content .act_image img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+.actualite .act_item .act_content .act_image img:hover {
+  transform: scale(1.2);
+}
+.actualite .act_item .act_content .act_date {
+  padding: 10px;
+  color: #002d58;
+}
+.actualite .act_item .act_content .act_title button {
+  background-color: white;
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1a45a2;
+  text-align: start;
+}
+.actualite .act_item .act_content .act_title button:hover {
+  color: #002d58;
+}
+.actualite .act_item .act_content .act_desc {
+  padding: 0 10px 10px 10px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=actualite.css.map */

@@ -1,0 +1,41 @@
+.cards-anciens .card {
+  max-height: 200px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px #002d58;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+.cards-anciens .card .card-title {
+  text-align: center;
+}
+.cards-anciens .card .card-title img {
+  width: 6rem;
+  height: 6rem;
+}
+.cards-anciens .card .card-title h3 {
+  margin-top: 2px;
+  color: #002d58;
+  font-size: 16px;
+  font-weight: 700;
+}
+.cards-anciens .card .card-text p {
+  font-size: 12px;
+  font-weight: 600;
+  display: none;
+}
+.cards-anciens .card:hover {
+  background: linear-gradient(62deg, #020024 0%, #002d58 34%, #1a46a2 78%);
+  max-height: none;
+}
+.cards-anciens .card:hover .card-title h3 {
+  color: white;
+}
+.cards-anciens .card:hover .card-text p {
+  color: #fafafa;
+  display: block;
+}
+
+/*# sourceMappingURL=voix_anciens.css.map */

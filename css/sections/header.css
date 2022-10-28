@@ -1,0 +1,24 @@
+.header {
+  position: relative;
+  min-height: 400px;
+  background: linear-gradient(62deg, #020024 0%, #002d58 34%, #1a46a2 78%);
+  border-bottom-right-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .title {
+  color: white;
+  text-align: center;
+}
+.header .title .heading {
+  font-size: 4rem;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .header .title .heading {
+    font-size: 3rem;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,46 @@
+@use '../colors' as *;
+.pages .page {
+    .row {
+        input {
+            border-radius: 10px;
+            border: 2px solid $secondary;
+        }
+    }
+    .table{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        .button-decor {
+            background: linear-gradient(62deg, rgba(2,0,36,1) 0%, rgba(0,45,88,1) 34%, rgba(26,70,162,1) 78%);
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .button-decor-red{
+            background: #cc0000;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        
+    }
+    
+}
+.modal{
+    .modal-content{
+        border-radius: 30px;
+        .modal-body{
+            input{
+                border-radius: 10px;
+                border: 2px solid $secondary;
+            }
+    
+            button {
+                background: linear-gradient(62deg, rgba(2,0,36,1) 0%, rgba(0,45,88,1) 34%, rgba(26,70,162,1) 78%);
+                width: 60%;
+                border-radius: 20px;
+                font-weight: bold;
+            }
+        }
+    }
+    
+    
+}

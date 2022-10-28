@@ -1,0 +1,70 @@
+.style-cards {
+  box-shadow: 5px 5px 15px #002d58;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+}
+.style-cards:hover {
+  background: linear-gradient(62deg, #020024 0%, #002d58 34%, #1a46a2 78%);
+}
+.style-cards:hover p {
+  color: white;
+}
+.style-cards .card-body img {
+  width: 10rem;
+}
+@media (max-width: 900px) {
+  .style-cards .card-body {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.style-card-partenaire {
+  box-shadow: 5px 5px 15px #002d58;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  min-height: 200px;
+  max-height: 200px;
+}
+.style-card-partenaire .card-body .card-title p {
+  text-align: center;
+  color: #1a45a2;
+  font-size: 15px;
+}
+@media (max-width: 800px) {
+  .style-card-partenaire .card-body .card-title p {
+    font-size: 14px;
+  }
+}
+.style-card-partenaire .card-body .card-text {
+  display: none;
+}
+.style-card-partenaire .card-body .card-text p {
+  font-size: 14px;
+  font-weight: 600;
+}
+.style-card-partenaire .card-body .card-text ul {
+  font-size: 13px;
+  font-weight: 500;
+}
+.style-card-partenaire:hover {
+  background: linear-gradient(62deg, #020024 0%, #002d58 34%, #1a46a2 78%);
+  min-height: none;
+  max-height: none;
+}
+.style-card-partenaire:hover .card-body .card-title p {
+  color: white;
+}
+.style-card-partenaire:hover .card-body .card-text {
+  display: block;
+}
+.style-card-partenaire:hover .card-body .card-text p {
+  color: white;
+}
+.style-card-partenaire:hover .card-body .card-text ul {
+  color: #fafafa;
+}
+
+/*# sourceMappingURL=card_style.css.map */

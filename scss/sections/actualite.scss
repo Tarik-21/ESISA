@@ -1,0 +1,56 @@
+@use '../colors' as *;
+.actualite {
+    .container {
+        width: 85%;
+        
+    }
+    .act_item {
+        min-height: 500px;
+        display: flex;
+        box-shadow: 0 0 10px #cccccc7a;
+        margin-bottom: 20px;
+
+        .act_bar{
+            width: 8%;
+            background: linear-gradient(to top,rgb(38, 53, 146), rgb(51, 58, 101));
+
+        }
+        .act_content {
+            .act_image {
+                height: 220px;
+                overflow: hidden;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    transition: transform .5s ease;
+                    &:hover {
+                        transform: scale(1.2);
+                    }
+                }
+            }
+            .act_date {
+                padding: 10px;
+                color: $primary;
+            }
+            .act_title {
+                button {
+                    background-color: white;
+                    border: none;
+                    font-size: 24px;
+                    font-weight: bold;
+                    color: $secondary;
+                    text-align: start;
+                    &:hover {
+                        color: $primary;
+                    }
+
+                }
+                
+            }
+            .act_desc {
+                padding: 0 10px 10px 10px;
+                font-weight: bold;
+            }
+        }
+    }
+}

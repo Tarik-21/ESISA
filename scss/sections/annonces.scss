@@ -1,0 +1,38 @@
+@use '../colors' as *;
+
+.annonces{
+    .carousel-item{
+        padding: 50px;
+        .card{
+            margin-bottom: 15px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 15px $primary;
+            transition: all 0.3s ease-in;
+            -webkit-transition: all 0.3s ease-in;
+            -moz-transition: all 0.3s ease-in;
+
+            img{
+                width: 100%;
+                cursor: pointer;
+            }
+
+            &:hover {
+                filter: brightness(80%);
+                -webkit-filter: brightness(80%);
+                transform: scale(1.1);
+              }
+        }
+    }
+    button{
+        
+        background-color: white;
+        width: 5rem;
+        height: 4rem;
+
+        i{
+            font-size: 50px;
+            color: #1a45a2;
+        }
+    }
+    
+}

@@ -1,0 +1,21 @@
+.tab {
+  position: relative;
+}
+.tab .nav-tabs .nav-link {
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  margin-bottom: 5px;
+}
+.tab .nav-tabs .nav-link:hover {
+  border: none;
+}
+.tab .nav-tabs .nav-link.active {
+  background: linear-gradient(62deg, #020024 0%, #002d58 34%, #1a46a2 78%);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=tab.css.map */

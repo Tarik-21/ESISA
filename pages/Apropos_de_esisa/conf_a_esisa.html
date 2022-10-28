@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="../../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+  <!--nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark menu shadow-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            <img src="/logo_esisa.png" alt="logo" width="100px" height="40px">
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNav">
+            <ul class="navbar-nav space flex-wrap me-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/home.html">Accueil</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="true">A Propos de L'ESISA</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item style-hover" href="/pages/Apropos_de_esisa/motPresident.html"><i class="fas fa-angle-right"></i> Mot du Président</a></li>
+                        <li><a class="dropdown-item" href="/pages/Apropos_de_esisa/etudier_a_esisa.html"><i class="fas fa-angle-right"></i> Etudier à l'ESISA</a></li>
+                        <li><a class="dropdown-item" href="/pages/Apropos_de_esisa/objectifs_esisa.html"><i class="fas fa-angle-right"></i> Objectifs de l'ESISA</a></li>
+                        <li><a class="dropdown-item" href="/pages/Apropos_de_esisa/voix_anciens.html"><i class="fas fa-angle-right"></i> La voix des anciens</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fas fa-angle-right"></i> Conférences à l'ESISA</a></li>
+                        <li><a class="dropdown-item" href="/pages/Apropos_de_esisa/conf_a_etranger.html"><i class="fas fa-angle-right"></i> Conférences à l'Etranger</a></li>
+                        <li><a class="dropdown-item" href="/pages/Apropos_de_esisa/workshops.html"><i class="fas fa-angle-right"></i> Workshop</a></li>
+                        <li><a class="dropdown-item" href="/pages/Apropos_de_esisa/themes_recherche.html"><i class="fas fa-angle-right"></i> Thèmes de Recherche</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle " href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">Enseignement</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item style-hover" href="/pages/enseignement/systeme_enseignement.html"><i class="fas fa-angle-right"></i> Système d'Enseignement</a></li>
+                  <li><a class="dropdown-item" href="/pages/enseignement/procedure_admission.html"><i class="fas fa-angle-right"></i> Procédure d'Admission</a></li>
+                  <li><a class="dropdown-item" href="/pdf/Reglement_interieur.pdf"><i class="fas fa-angle-right"></i> Règlement Intérieur</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fas fa-angle-right"></i> Formation</a>
+                    <ul class="dropdown-menu dropdown-submenu">
+                      <li>
+                        <a class="dropdown-item" href="#"><i class="fas fa-angle-right"></i> Bac +3 </a>
+                          <ul class="dropdown-menu dropdown-submenu">
+                            <li>
+                              <a class="dropdown-item" href="/pages/enseignement/bac3.html"><i class="fas fa-circle fa-xs"></i> Ingénierie Logicielle (IL)</a>
+                            </li>
+                          </ul>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"><i class="fas fa-angle-right"></i> Bac +5</a>
+                        <ul class="dropdown-menu dropdown-submenu">
+                          <li>
+                            <a class="dropdown-item" href="#"><i class="fas fa-circle fa-xs"></i> Ingénierie des Systèmes d'Information (ISI)</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#"><i class="fas fa-circle fa-xs"></i> Ingénierie des Systèmes Distribués (ISD)</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"><i class="fas fa-circle fa-xs"></i> CCNA (CISCO)</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">International</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item style-hover" href="#"><i class="fas fa-angle-right"></i> ESISA et l'International</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fas fa-angle-right"></i> Admis à l'Etranger</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fas fa-angle-right"></i> Nos Partenaires</a></li>     
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Entreprises et Stages</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item style-hover" href="#"><i class="fas fa-angle-right"></i> ESISA-Entreprises</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fas fa-angle-right"></i> Stages</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fas fa-angle-right"></i> Emplois Sociétés Partenaires</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fas fa-angle-right"></i> Sociétés Partenaires</a></li>        
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">Autre</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item style-hover" href="#"><i class="fas fa-angle-right"></i> Presse</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fas fa-angle-right"></i> Galerie</a></li>     
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Espace et Pre-inscription</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item style-hover" href="#"><i class="fas fa-angle-right"></i> Espace Parent</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fas fa-angle-right"></i> Pre-inscription en ligne</a></li>    
+                </ul>
+              </li>
+            </ul>
+            <button type="button" class="rounded-pill btn-rounded">Contact</button>
+          </div>
+        </div>
+    </nav>
+    
+
+    <section class="header">
+      <div class="title">
+        <h1 class="heading mb-3">CONFERENCES A L'ESISA</h1>
+      </div>
+    </section>
+
+
+      <section class="tab">
+          <nav>
+            <div class="nav nav-tabs mt-3 justify-content-center mx-3" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="ndido_2017_tab" data-bs-toggle="tab" data-bs-target="#ndido_2017" type="button" role="tab" aria-controls="nav-home" aria-selected="true">NDIDO 2017</button>
+                <button class="nav-link" id="frontiere_numerique_2014_tab" data-bs-toggle="tab" data-bs-target="#frontiere_numerique_2014" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Frontière Numériques, 2014</button>
+                <button class="nav-link" id="document_numerique_2014_tab" data-bs-toggle="tab" data-bs-target="#document_numerique_2014" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Document Numérique, 2014</button>
+                <button class="nav-link" id="frontiere_numerique_2012_tab" data-bs-toggle="tab" data-bs-target="#frontiere_numerique_2012" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Frontière Numériques, 2012</button>
+                <button class="nav-link" id="i3m_2010_tab" data-bs-toggle="tab" data-bs-target="#i3m_2010" type="button" role="tab" aria-controls="nav-home" aria-selected="true">I3M 2010</button>
+                <button class="nav-link" id="emedisys_2010_tab" data-bs-toggle="tab" data-bs-target="#emedisys_2010" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">E-MEDISYS 2010 - Fès</button>
+                <button class="nav-link" id="emedisys_2008_tab" data-bs-toggle="tab" data-bs-target="#emedisys_2008" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">E-MEDISYS 2008 - SFAX</button>
+                <button class="nav-link" id="emedisys_2007_tab" data-bs-toggle="tab" data-bs-target="#emedisys_2007" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">E-MEDISYS 2007 - Fès</button>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="ndido_2017" role="tabpanel" aria-labelledby="nav-home-tab">
+                <section class="content my-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <h2>Nouveaux Défis de l’Internet Des Objets. 18 et 19 MAI 2017, Fès MAROC</h2>
+                            <p>Suite à la journée nationale organisée le 29 Novembre 2016 à la Cite´ de l’Innovation, Nokia Paris-Saclay (https://ido2016.sciencesconf.org/), nous souhaitons poursuivre l’exploration des nouveaux défis que l’Internet des Objets (IdO) lors d’une conférence de deux jours qui aura lieu à Fès au Maroc dans les locaux de l’Ecole Supérieure d’Ingénierie en Sciences Appliquées (ESISA). Cette conférence interrogera les problématiques de l’IdO suivant trois axes complémentaires technique, usage, éthique. Les techniques utilisées pour produire les artefacts (objets physiques, infrastructures), les programmes (algorithmiques, logiciels) et les données (Big Data, linked data, metadata, ontologies) font l’objet de multiple innovations tant le domaine de l’IdO est riche et stimulant.</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="content my-2 bg-light">
+                    <div class="container mx-auto">
+                        <div class="row justify-content-center">
+                            <h2>Présidents de la conférence :</h2>
+                            <p> <span class="fw-bold">- Mehdi Ammi, Univ. Paris-Sud / LIMSI-CNRS, France. <br> 
+                                - Sabine Coquillart, INRIA-Grenoble Rhône-Alpes, France <br>
+                                - Khalid Mekouar, Président Directeur Pédagogique de l'ESISA, Maroc <br>
+                                - Samuel Szoniecky, Univ. Paris 8 / Laboratoire Paragraphe - CiTU, France</span> 
+                            </p>
+                            <img src="/conférence_esisa/1.jpg" alt="img" style="width: 50%;" class="mb-3">
+                            <img src="/conférence_esisa/2.jpg" alt="img" style="width: 50%; " class="mb-3">
+                            <img src="/conférence_esisa/3.jpg" alt="img" style="width: 50%;" class="mb-3">
+                            <img src="/conférence_esisa/4.jpg" alt="img" style="width: 50%" class="mb-3">
+                            
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="tab-pane fade" id="frontiere_numerique_2014" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <section class="content my-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <h2>2ème Edition du Colloque International "Frontière Numériques", Fès MAROC Mardi 18 et Mercredi 19 Novembre 2014</h2>
+                            <img src="/conférence_esisa/colloque.jpg" alt="img" style="width: 50%;" class="mb-3">
+                            <p>Colloque organisé par : <br> <br>
+
+                                <span class="fw-bold"> - Le Laboratoire Paragraphe EA 349 (Université de Cergy-Pontoise), <br>
+                                - Le Laboratoire Arts de Images & Art Contemporain EA (Université Paris 8), <br>
+                                - L'Ecole Supérieure d'Ingénierie en Sciences Appliquées, <br>
+                                - Avec le soutien de l'Initiative d'excellence en formations innoventes créatric et du Laboratoire d'Excellence Labex Arts-H2H</span></p>
+                            <img src="/conférence_esisa/1-1.jpg" alt="img" style="width: 48%;" class="mb-3">
+                            <img src="/conférence_esisa/1-2.jpg" alt="img" style="width: 48%;" class="mb-3">
+                            <img src="/conférence_esisa/1-3.jpg" alt="img" style="width: 48%;" class="mb-3">
+                            <img src="/conférence_esisa/1-4.jpg" alt="img" style="width: 48%;" class="mb-3">
+                            <img src="/conférence_esisa/1-5.jpg" alt="img" style="width: 48%;" class="mb-3">
+                            <img src="/conférence_esisa/1-6.jpg" alt="img" style="width: 48%;" class="mb-3">
+                            <img src="/conférence_esisa/1-7.jpg" alt="img" style="width: 48%;" class="mb-3">
+                            <img src="/conférence_esisa/1-8.jpg" alt="img" style="width: 48%;" class="mb-3">
+                            <img src="/conférence_esisa/1-9.jpg" alt="img" style="width: 48%;" class="mb-3">
+                            <img src="/conférence_esisa/1-10.jpg" alt="img" style="width: 48%;" class="mb-3">
+                            
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="tab-pane fade" id="document_numerique_2014" role="tabpanel" aria-labelledby="nav-contact-tab">
+              <section class="content my-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <h2>Livre post-numérique : historique, mutations et perspectives 19-20 Novembre 2014 – Fès, Maroc</h2>
+                        <p>Colloque organisé par : <br> <br>
+
+                          <span class="fw-bold">- CiTU – Paragraphe, Université Paris 8, Saint-Denis – France <br>
+                          - ESISA, Fés – Maroc <br>
+                          - Europia, Paris – France <br>
+                          - GERiiCO, Université de Lille – France <br>
+                          - IDEFI – Creatic, Université Paris 8, Saint-Denis – France <br>
+                          - LEDEN – MSH Paris-Nord, Saint-Denis – France </span><br><br>
+                          Aujourd’hui, il est d’usage de parler et de pratiquer la lecture et l’écriture sur des ouvrages dématérialisés, augmentés, enrichis, contextualisés, interactifs, hybrides, crossmédiatisés, etc.</p>
+                          
+                    </div>
+                </div>
+            </section>
+            </div>
+            <div class="tab-pane fade" id="frontiere_numerique_2012" role="tabpanel" aria-labelledby="nav-profile-tab">
+              <section class="content my-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <img src="/conférence_esisa/colloque2012.jpg" alt="img" style="width: 100%;">
+                        <p>L'ESISA a organisé en partenariat avec l'Université de Paris 8 et le Laboratoire Paragraphe le 1er et 2 novembre 2012 un colloque sous le thème : <span class="fw-bold">"Frontières Numériques et Créations géoartistiques et réalités géopolitiques en Méditerranée : Nouvelles expériences de la mobilité."</span> </p>
+                        <img src="/conférence_esisa/2-1.jpg" alt="img" style="width: 48%;" class="mb-3">
+                        <img src="/conférence_esisa/2-2.jpg" alt="img" style="width: 48%;" class="mb-3">
+                        <img src="/conférence_esisa/2-3.jpg" alt="img" style="width: 48%;" class="mb-3">
+                        <img src="/conférence_esisa/2-4.jpg" alt="img" style="width: 48%;" class="mb-3">
+                        <img src="/conférence_esisa/2-5.jpg" alt="img" style="width: 48%;" class="mb-3">
+                        <img src="/conférence_esisa/2-6.jpg" alt="img" style="width: 48%;" class="mb-3">
+                        <img src="/conférence_esisa/2-7.jpg" alt="img" style="width: 48%;" class="mb-3">
+                        <img src="/conférence_esisa/2-8.jpg" alt="img" style="width: 48%;" class="mb-3">
+                        <img src="/conférence_esisa/2-9.jpg" alt="img" style="width: 48%;" class="mb-3">
+                        <img src="/conférence_esisa/2-10.jpg" alt="img" style="width: 48%;" class="mb-3">
+                    </div>
+                </div>
+            </section>
+            </div>
+            <div class="tab-pane fade" id="i3m_2010" role="tabpanel" aria-labelledby="nav-home-tab">
+              <section class="content my-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <p>I3M implique plusieurs conférences co-implantées sur le même site. En 2010 ESISA a co-organisé cet évènement scientifique qui favorise la discussion entre tous les simulationnistes, qui sont activement à jouer des rôles différents dans le modeling et la simulation, afin de transformer les intuitions et les attentes dans la réalité. <br>
+
+                          L'initiative I3M est le principal outil pour améliorer la valeur des compétences et l'expertise afin de promouvoir efficacement les aspects innovants et les contributions scientifiques.</p>
+                        <img src="/conférence_esisa/3-1.jpg" alt="img" style="width: 48%;" class="mb-3">
+                        <img src="/conférence_esisa/3-2.jpg" alt="img" style="width: 48%;" class="mb-3">
+                        <img src="/conférence_esisa/3-3.jpg" alt="img" style="width: 48%;" class="mb-3">
+                        <img src="/conférence_esisa/3-4.jpg" alt="img" style="width: 48%;" class="mb-3">
+                    </div>
+                </div>
+            </section>
+            </div>
+            <div class="tab-pane fade" id="emedisys_2010" role="tabpanel" aria-labelledby="nav-profile-tab">
+              <section class="content my-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <p>
+                          Suite au succès de la 1ère et 2ème conférence Emedisys 07/08 organisées par l'ESISA une troisième sera organisée à Fès le 12-14 Mai 2010. <br>
+
+                          La conférence s'est tenue à la Faculté de Médecine et de Pharmacie de Fès <br>
+
+                          <span class="fw-bold">Adresse:</span>  Route de Sefrou Outre le nouveau stade <br>
+
+                          E-Medisys est une nouvelle conférence internationale , très novateur , dans les rubriques de la télémédecine. Cette conférence est née de la collaboration de trois équipes de recherche réparties entre Sfax ( Tunisie ) , Besançon ( France ) et Fès ( Maroc ) . <br>
+
+                          Les actes du colloque ont été distribués aux participants sous forme imprimée .
+                        </p>
+                        <img src="/conférence_esisa/4-1.jpg" alt="img" style="width: 48%;" class="mb-3">
+                        <img src="/conférence_esisa/4-2.jpg" alt="img" style="width: 48%;" class="mb-3">
+                        <img src="/conférence_esisa/4-3.jpg" alt="img" style="width: 48%;" class="mb-3">
+                        <img src="/conférence_esisa/4-4.jpg" alt="img" style="width: 48%;" class="mb-3">
+                        <img src="/conférence_esisa/4-5.jpg" alt="img" style="width: 48%;" class="mb-3">
+                        <img src="/conférence_esisa/4-6.jpg" alt="img" style="width: 48%;" class="mb-3">
+                        <img src="/conférence_esisa/4-7.jpg" alt="img" style="width: 48%;" class="mb-3">
+                        <img src="/conférence_esisa/4-8.jpg" alt="img" style="width: 48%;" class="mb-3">
+                    </div>
+                </div>
+            </section>
+            </div>
+            <div class="tab-pane fade" id="emedisys_2008" role="tabpanel" aria-labelledby="nav-contact-tab">
+              <section class="content my-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <img src="/conférence_esisa/stt4.gif" alt="img">
+                        <p>Suite au succès de la 1ère conférence Emedisys 07 organisée par l'ESISA à Fès une deuxième sera organisée à Sfax à Tunis le 29-31 Octobre 2008. <br>
+
+                          Conference Chairman <br>
+                          <span class="fw-bold">Mohamed Salim BOUHLEL</span> <br>
+                          Professor, University of Sfax, E-Medisys, Tunisia <br>
+                          <span class="fw-bold">Jean-christophe LAPAYRE</span> <br>
+                          Professor in the university of Franche-Comté, LIFC, France <br>
+                          <span class="fw-bold">Khalid MEKOUAR</span> <br>
+                          President of ESISA Fès, Maroc <br>
+                          Scientific Committee Chairman <br>
+                          <span class="fw-bold">Mohamed ESSAAIDI</span> <br>
+                          IEEE Morocco Section Chair <br>
+                          <span class="fw-bold">Jamel DAOUD</span> <br>
+                          Professor in the Sfax Faculty of Medicine, Tunisia</p>
+                        
+                    </div>
+                </div>
+            </section>
+            </div>
+            <div class="tab-pane fade" id="emedisys_2007" role="tabpanel" aria-labelledby="nav-profile-tab">
+              <section class="content my-5">
+              <div class="container">
+                  <div class="row justify-content-center">
+                      <p>e-Medisys est un e nouvelle conférence internationale, très novatrice, sur le thème de la télémédecine. Cette conférence est née de la collaboration de trois équipes de recherche réparties entre l’Université de Sfax-Tunis, l’Universités de Franche Comté-Besançon-France et l’Ecole Supérieure d’Ingénierie en Sciences Appliquées ESISA-Fès Maroc. Qu'il s'agisse d'une expérience de télémédecine entre praticiens ou d'articles plus techniques pour des informaticiens, il est vraiment intéressant que nos communautés échangent les points de vue. e-Medisys, de par son thème transdisciplinaire, a pour vocation de réunir les chercheurs, mais aussi les industriels, qui sont acteurs de la télémédecine tant du point de vue médical que du point de vue informatique. C'est ce qui en fait un évènement unique : la réunion des acteurs qui permettront de traiter la télémédecine "de bout en bout". Cette conférence s'est tenue en français et en anglais. Les papiers ont été sélectionnés par un comité de lecture mixte regroupant des spécialistes de renommée dans le domaine de la télémédecine et les nouvelles technologies de l'information. Pour la session de tutoriaux, nous avons invité des sommités comme le Professeur Maresco (Opération Lindberg, argonaute3D), le Professeur Bashshur (Journal on e-health and telemedecine) ou encore le Professeur Lareng (Président de la Société Européenne de Télémédecine) et d'autres sommités dans le domaine de la recherche.</p>
+                      <div class="card style-cards">
+                        <div class="card-body d-flex ">
+                          
+                            
+                              <img src="/conférence_esisa/5-1.jpg" alt="img" class="my-3">
+                              <p class="ps-3 pt-3">De gauche à droite <br>
+
+                                <span class="fw-bold">- Pr. Nouredine ALAMI : Vice président la faculté de Médecine et de Pharmacie</span> <br>
+                              
+                                <span class="fw-bold">- Dr. Khalid MEKOUAR : Président de la conférence EMEDISYS 07</span> <br>
+                              
+                                <span class="fw-bold">- Pr. Mohamed ESSAAIDI : Président IEEE Maroc</span> <br>
+                              
+                                <span class="fw-bold">- Pr. Mohamed Salim BOUHLEL : Président de Setit 09 et EMEDISYS 08 à Tunis</span> <br>
+                              
+                                <span class="fw-bold">- Pr. Jean-christophe LAPAYRE : Directeur du LIFC (Besançon-France)</span> </p> <br>
+
+                        </div>
+                      </div>
+                      <div class="card style-cards mt-3">
+                        <div class="card-body d-flex ">
+                              <img src="/conférence_esisa/emedisys07 esisa2.jpg" alt="img" class="my-3">
+                              <p class="ps-3 pt-3">Participation des élèves de l’ESISA aux grandes conférences internationales une initiative qui est une partie intégrante de sa pédagogie active.</p>
+                              
+
+                        </div>
+                      </div>
+                      <div class="card style-cards mt-3">
+                        <div class="card-body d-flex ">
+                              <img src="/conférence_esisa/emedisys07 esisa3.jpg" alt="img" class="my-3">
+                              <p class="ps-3 pt-3">La force d’ESISA est son corps enseignant (à la hauteur de l’espérance) qui est formé essentiellement de Docteurs d’état qui ont fait leur preuve à l’étranger (USA, France, Canada) et au Maroc.</p>
+                              
+
+                        </div>
+                      </div>
+                      <div class="card style-cards mt-3">
+                        <div class="card-body d-flex ">
+                              <img src="/conférence_esisa/emedisys07 esisa mekouar3.jpg" alt="img" class="my-3">
+                              <p class="ps-3 pt-3">Un ancien étudiant de l’ESISA, qui a intégré le Laboratoire LIFC de Besançon et qui est un chercheur et parmi le comité d’organisation de la conférence. Reçoit le prix de la main de M. MEKOUAR Khalid Président de l’ESISA et Président de la Conférence EMEDISYS 07.</p>
+                        </div>
+                      </div>
+                      <div class="card style-cards mt-3">
+                        <div class="card-body d-flex ">
+                              <img src="/conférence_esisa/emedisys07 esisa4.jpg" alt="img" class="my-3 img-fluid">
+                              <p class="ps-3 pt-3">La Faculté de Médecine et de Pharmacie de Fès (doyen, Vices Doyen, Professeurs, ….) a joué un rôle primordial à la réussite de cette conférence EMEDISYS 07 Un Carrefour d’information multi disciplinaire Chercheurs en Médecine, Pharmacie, Informatique, Electronique, Télésanté, Réseaux, Télésurveillance, …..</p>
+                        </div>
+                      </div>
+                      
+                  </div>
+              </div>
+          </section>
+        </div>
+            
+            
+          </div>
+          
+        
+      </section>
+
+
+    <!--footer-->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-lg-3 contact-box pt-1 d-md-block d-lg-flex d-flex ">
+            <div class="contact-box__icon"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call"  viewBox="0 0 24 24" stroke-width="1"  fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+              <path d="M15 7a2 2 0 0 1 2 2" />
+              <path d="M15 3a6 6 0 0 1 6 6" />
+            </svg></div>
+            <div class="contact-box__info">
+              <a href="" class="contact-box__info--title">Téléphone</a>
+              <p class="contact-box__info--subtitle">+212 (0)5 35 65 70 95</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-3 contact-box pt-1 d-md-block d-lg-flex d-flex ">
+            <div class="contact-box__icon"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-printer" viewBox="0 0 24 24" stroke-width="1"  fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M17 17h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-14a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h2" />
+              <path d="M17 9v-4a2 2 0 0 0 -2 -2h-6a2 2 0 0 0 -2 2v4" />
+              <rect x="7" y="13" width="10" height="8" rx="2" />
+            </svg></div>
+            <div class="contact-box__info">
+              <a href="" class="contact-box__info--title">Fax </a>
+              <p class="contact-box__info--subtitle">+212 (0)5 35 65 97 90</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-3 contact-box pt-1 d-md-block d-lg-flex d-flex ">
+            <div class="contact-box__icon"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened"  viewBox="0 0 24 24" stroke-width="1"  fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <polyline points="3 9 12 15 21 9 12 3 3 9" />
+              <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+              <line x1="3" y1="19" x2="9" y2="13" />
+              <line x1="15" y1="13" x2="21" y2="19" />
+            </svg></div>
+            <div class="contact-box__info">
+              <a href="" class="contact-box__info--title">Mail </a>
+              <p class="contact-box__info--subtitle">info@esisa.ma</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-3 contact-box pt-1 d-md-block d-lg-flex d-flex ">
+            <div class="contact-box__icon"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2"  viewBox="0 0 24 24" stroke-width="1.5"  fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <line x1="18" y1="6" x2="18" y2="6.01" />
+              <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+              <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+              <line x1="9" y1="4" x2="9" y2="17" />
+              <line x1="15" y1="15" x2="15" y2="20" />
+            </svg></div>
+            <div class="contact-box__info">
+              <a href="" class="contact-box__info--title">Adresse </a>
+              <p class="contact-box__info--subtitle">29 bis Av Ibn Khatib <br> Route d'Immouzzer Fès - Maroc</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+  
+      <div class="footer-sm" style="background-color: #212121;">
+        <div class="container">
+          <div class="row py-2 text-center text-white justify-content-center">
+            <div class="col-lg-4 col-md-6 mb-2">
+              connect with us on social Media
+            </div>
+            <div class="col-lg-7 col-md-6">
+              <a href=""><i class="fab fa-facebook"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-youtube"></i></a>
+              <a href=""><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="container">
+        <div class="row text-white justify-content-center mt-3 pb-3">
+          <div class="col-12 col-sm-6 col-lg-6 mx-auto">
+            <h5 class="fw-bold">ESISA</h5>
+            <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+            <p class="lh-lg">L'Ecole Supérieure d'ingénierie en Sciences Appliquées est une école supérieure, fondée par un professionnel de l'informatique (Docteur, Professeur Universitaire, Ingénieur, PDG, Teneur du prix Sadi Carnot 1991), qui répond aux besoins du marché de travail de la région et de son développement.</p>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+            <h5 class="fw-bold">Liens Directs</h5>
+            <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+            <ul class="list-inline footer-list">
+              <li><a href="#"><i class="fas fa-angle-right"></i> Accueil</a></li>
+              <li><a href="#"><i class="fas fa-angle-right"></i> Plateforme E-Learning Moodle</a></li>
+              <li><a href="#"><i class="fas fa-angle-right"></i> Espace Parent</a></li>
+              <li><a href="#"><i class="fas fa-angle-right"></i> Pre-inscription</a></li>
+            </ul>
+  
+          </div>
+          <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+            <h5 class="fw-bold">Formation</h5>
+            <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+            <ul class="list-inline footer-list">
+              <li><a href="#"><i class="fas fa-angle-right"></i> Bac +3 Ingénierie Logiciel</a></li>
+              <li><a href="#"><i class="fas fa-angle-right"></i> Bac +5 Mastères ISI</a></li>
+              <li><a href="#"><i class="fas fa-angle-right"></i> Bac +5 Mastères ISD</a></li>
+              <li><a href="#"><i class="fas fa-angle-right"></i> CISCO CCNA</a></li>
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+  
+      
+  
+        <div class="footer-bottom py-2">
+          <div class="container">
+            <div class="row text-center text-white">
+              <div class="col-12">
+                <div class="footer-bottom__copyright">
+                  &COPY; Copyright © 2021 ESISA - Tous droits Réservés - <a href=""> www.esisa.ac.ma</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </footer>
+
+    
+  
+    <!--button top-->
+  
+    <a href="#" class="shadow btn-primary rounded-circle back-to-top">
+      <i class="fas fa-chevron-up"></i>
+    </a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>

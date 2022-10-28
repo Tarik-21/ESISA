@@ -1,0 +1,99 @@
+.inscription-form, .evenement-form {
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 20px;
+  width: 80%;
+}
+.inscription-form .card-body .card-text, .evenement-form .card-body .card-text {
+  margin-bottom: 15px;
+}
+.inscription-form .card-body .card-text .head h1, .evenement-form .card-body .card-text .head h1 {
+  font-weight: bold;
+  color: #1a45a2;
+}
+.inscription-form .card-body .card-text .title, .evenement-form .card-body .card-text .title {
+  font-weight: 500;
+  color: #1a45a2;
+  margin-bottom: 5px;
+}
+.inscription-form .card-body .card-text input, .inscription-form .card-body .card-text select, .inscription-form .card-body .card-text textarea, .evenement-form .card-body .card-text input, .evenement-form .card-body .card-text select, .evenement-form .card-body .card-text textarea {
+  border-radius: 10px;
+  border: 2px solid #1a45a2;
+}
+.inscription-form .card-body .card-text button, .evenement-form .card-body .card-text button {
+  background: linear-gradient(62deg, #020024 0%, #002d58 34%, #1a46a2 78%);
+  width: 60%;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.evenement-form .inputs {
+  width: 80%;
+  margin: 5px auto;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 700px) {
+  .evenement-form .inputs {
+    flex-direction: column;
+  }
+}
+.evenement-form .inputs .side1 {
+  width: 48%;
+}
+@media (max-width: 700px) {
+  .evenement-form .inputs .side1 {
+    width: 100%;
+  }
+}
+.evenement-form .inputs .side2 {
+  width: 48%;
+  align-items: stretch;
+}
+@media (max-width: 700px) {
+  .evenement-form .inputs .side2 {
+    width: 100%;
+  }
+}
+.evenement-form .inputs .side2 .form-floating {
+  height: 100%;
+}
+.evenement-form .inputs .side2 .form-floating textarea {
+  height: 100%;
+}
+
+.inscription-form-sm {
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 20px;
+  width: 30%;
+}
+@media (max-width: 765px) {
+  .inscription-form-sm {
+    width: 80%;
+  }
+}
+.inscription-form-sm .card-body .card-text .row {
+  margin-bottom: 15px;
+}
+.inscription-form-sm .card-body .card-text .row .title {
+  font-weight: 500;
+  color: #1a45a2;
+  margin-bottom: 5px;
+}
+.inscription-form-sm .card-body .card-text .row input, .inscription-form-sm .card-body .card-text .row select, .inscription-form-sm .card-body .card-text .row textarea {
+  border-radius: 10px;
+  border: 2px solid #1a45a2;
+}
+.inscription-form-sm .card-body .card-text .row button {
+  background: linear-gradient(62deg, #020024 0%, #002d58 34%, #1a46a2 78%);
+  width: 60%;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=formes.css.map */

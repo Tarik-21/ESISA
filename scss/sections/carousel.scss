@@ -1,0 +1,38 @@
+@use '../colors' as *;
+
+.carousel-inner .carousel-item-1 img{
+    width: 100%;
+    height: auto;
+    max-height: 450px;
+    min-height: 280px;
+  }
+  
+  .carousel-item-1::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: #000;
+      opacity: 0.7;
+  }
+
+  .carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    h5{
+        font-size: 100px;
+        font-weight: 700;
+    }
+    h4 {
+        margin-top: 10px;
+        font-size: 60px;
+        font-weight: 700;
+    }
+    p{
+        font-size: 20px;
+        top: 2rem;
+    }
+  }

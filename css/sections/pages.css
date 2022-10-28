@@ -1,0 +1,35 @@
+.pages .page .row input {
+  border-radius: 10px;
+  border: 2px solid #1a45a2;
+}
+.pages .page .table {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pages .page .table .button-decor {
+  background: linear-gradient(62deg, #020024 0%, #002d58 34%, #1a46a2 78%);
+  border-radius: 20px;
+  font-weight: bold;
+}
+.pages .page .table .button-decor-red {
+  background: #cc0000;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.modal .modal-content {
+  border-radius: 30px;
+}
+.modal .modal-content .modal-body input {
+  border-radius: 10px;
+  border: 2px solid #1a45a2;
+}
+.modal .modal-content .modal-body button {
+  background: linear-gradient(62deg, #020024 0%, #002d58 34%, #1a46a2 78%);
+  width: 60%;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=pages.css.map */

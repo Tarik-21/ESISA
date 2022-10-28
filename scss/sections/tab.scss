@@ -1,0 +1,27 @@
+@use '../colors' as *;
+.tab {
+    position: relative;
+
+    .nav-tabs {
+        .nav-link {
+            font-size: 14px;
+            font-weight: 500;
+            border: none;
+            &:hover {
+                border: none;
+            }
+            margin-bottom: 5px;
+        }
+        .nav-link {
+            &.active {
+                background: linear-gradient(62deg, rgba(2,0,36,1) 0%, rgba(0,45,88,1) 34%, rgba(26,70,162,1) 78%);
+                color: white;
+                border-radius: 10px;
+                border: none;
+                font-weight: bold;
+            }
+            
+        }
+    }
+
+}

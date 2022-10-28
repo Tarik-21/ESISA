@@ -1,0 +1,54 @@
+@use '../colors' as *;
+.cards-anciens {
+    .card {
+        max-height: 200px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 15px $primary;
+        transition: all 0.3s ease-in;
+        -webkit-transition: all 0.3s ease-in;
+        -moz-transition: all 0.3s ease-in;
+        margin-bottom: 2rem;
+        padding: 1rem;
+        .card-title{
+            text-align: center;
+            img {
+                width: 6rem;
+                height: 6rem;
+            }
+            h3 {
+                margin-top: 2px;
+                color: $primary;
+                font-size: 16px;
+                font-weight: 700;
+                
+            }
+        }
+        .card-text {
+            p {
+                font-size: 12px;
+                font-weight: 600;
+                display: none;
+            }
+        }
+
+        &:hover {
+
+            .card-title{
+                h3 {
+                    color: white;
+                }
+            }
+            
+            background: linear-gradient(62deg, rgba(2,0,36,1) 0%, rgba(0,45,88,1) 34%, rgba(26,70,162,1) 78%);
+            max-height: none;
+
+            .card-text {
+                p {
+                    color: #fafafa;
+                    display: block;
+                }
+            }
+
+        }
+    }
+}
